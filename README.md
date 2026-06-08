@@ -16,10 +16,20 @@ NumCompute Stream extends the NumCompute library, to support incremental, decisi
 ## Installation
 
 To install NumCompute Stream, clone the repository and install it using pip:
-
 ```bash
-pip install .
+git clone https://github.com/shreyas-dhakal/numcompute_stream
+cd numcompute_stream
 ```
+Create a virtual environment and activate it:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+Install the required packages
+```bash
+pip3 install -r requirements.txt
+```
+
 
 ## API Overview
 
