@@ -1,0 +1,7 @@
+name = "numcompute_stream"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pytest"
+]
