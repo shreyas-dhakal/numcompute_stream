@@ -29,14 +29,18 @@ Install the required packages
 ```bash
 pip3 install -e .
 ```
+To run the tests
+```bash
+python -m pytest
+```
 
 
 ## API Overview
 
-*   `numcompute.stream`: `StreamTrainer` for managing online learning workflows.
+*   `numcompute.stream`: `StreamTrainer` for managing workflows.
 *   `numcompute.tree`: `DecisionTreeClassifier` with streaming support.
-*   `numcompute.ensemble`: `RandomForestClassifier` (Ensemble methods).
-*   `numcompute.visualise`: Reusable plotting functions for ML monitoring.
+*   `numcompute.ensemble`: `RandomForestClassifier` for ensemble methods.
+*   `numcompute.visualise`: Reusable plotting functions for monitoring and comparison.
 *   `numcompute.metrics`: Streaming-compatible classification and regression metrics.
 *   `numcompute.preprocessing`: Incremental scalers and imputers.
 
@@ -47,6 +51,6 @@ A demo is provided in `demo/stream_demo.ipyb`. It demonstrates:
 2. Splitting the dataset into chunks to simulate a stream.
 3. Training a Random Forest pipeline incrementally.
 4. Comparing performance against a single Decision Tree.
-5. Visualizing the results and saving plots to disk.
+5. Visualizing the results and saving plots.
 
  
