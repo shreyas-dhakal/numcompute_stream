@@ -1,3 +1,4 @@
+[project]
 name = "numcompute_stream"
 version = "0.1.0"
 dependencies = [
@@ -5,3 +6,6 @@ dependencies = [
     "matplotlib",
     "pytest"
 ]
+
+[tool.setuptools]
+packages = ["numcompute"]
