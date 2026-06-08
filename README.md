@@ -27,7 +27,7 @@ source .venv/bin/activate
 ```
 Install the required packages
 ```bash
-pip3 install -e .
+pip3 install .
 ```
 To run the tests
 ```bash
