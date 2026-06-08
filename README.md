@@ -22,8 +22,8 @@ cd numcompute_stream
 ```
 Create a virtual environment and activate it:
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 Install the required packages
 ```bash
